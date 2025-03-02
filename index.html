@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-ch">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=div, initial-scale=1.0">
+	<meta name="title" content="3D Cube - For Crush | Aoudumber Bade">
+    <meta name="github" content="https://github.com/Aoudumber-Bade">
+	<link rel="stylesheet" href="./css/program.css">
+	<title>3D Cube - For Masnhiii | Niharrr</title>
+</head>
+
+<body>
+	<div class="title">
+		Happppyyy Birhtday, Darling 💗
+	</div>
+
+	<div class="cube">
+		
+		<div class="outer-cube">
+			<div class="outer-top">
+				<img src="images/r1.jpg" />
+			</div>
+			<div class="outer-bottom">
+				<img src="images/r2.jpg" />
+			</div>
+			<div class="outer-front">
+				<img src="images/r-3.jpg" />
+			</div>
+			<div class="outer-back">
+				<img src="images/r1.jpg" />
+			</div>
+			<div class="outer-left">
+				<img src="images/r2.jpg" />
+			</div>
+			<div class="outer-right">
+				<img src="images/r-3.jpg" />
+			</div>
+		</div>
+		<!-- 内层立方体 -->
+		<div class="inner-cube">
+			<div class="inner-top">
+				<img src="images/r1.jpg" />
+			</div>
+			<div class="inner-bottom">
+				<img src="images/r2.png" />
+			</div>
+			<div class="inner-front">
+				<img src="images/r-3.jpg" />
+			</div>
+			<div class="inner-back">
+				<img src="images/r1.jpg" />
+			</div>
+			<div class="inner-left">
+				<img src="images/r2.png" />
+			</div>
+			<div class="inner-right">
+				<img src="images/r-3.jpg" />
+			</div>
+		</div>
+	</div>
+	<div>
+		<div class="message">
+			<div class="tip">
+				<!-- Tip: Move the mouse in and out of the cube and the effect will be displayed! -->
+			</div>
+		</div>
+	</div>
+
+	<audio controls autoplay loop id="birthdayAudio">
+		<source src="audio/birthday-song.mp3" type="audio/mpeg">
+		Your browser does not support audio element
+	  </audio>
+	  
+	  <div class="music-controls">
+		<button onclick="playMusic()" class="music-btn">🎵 Play</button>
+		<button onclick="pauseMusic()" class="music-btn">⏸️ Pause</button>
+		<button onclick="stopMusic()" class="music-btn">⏹️ Stop</button>
+	  </div>
+	  
+	  <script>
+		const audio = document.getElementById('birthdayAudio');
+		
+		function playMusic() {
+		  audio.play();
+		}
+		
+		function pauseMusic() {
+		  audio.pause();
+		}
+		
+		function stopMusic() {
+		  audio.pause();
+		  audio.currentTime = 0;
+		}
+	  </script>
+
+	<div id="copy">
+		<p class="text-center text-white text-sm">Specially coded for Manshiii <a
+			href="https://www.instagram.com/adv.nihar/#">@adv.nihar</a></p>
+	  </div>
+	  <script>
+		const audio = document.getElementById('birthdayAudio');
+		
+		function playMusic() {
+		  audio.play();
+		}
+		
+		function pauseMusic() {
+		  audio.pause();
+		}
+		
+		function stopMusic() {
+		  audio.pause();
+		  audio.currentTime = 0;
+		}
+	  </script>
+	  
+</body>
+
+</html>
